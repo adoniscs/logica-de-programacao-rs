@@ -16,6 +16,8 @@ def exibeTabuleiro():
     print('|'.join(linha))
     print('-' * 5)
 
+exibeTabuleiro()
+
 def jogada(linha, coluna):
   if (
     not 0 <= linha <= 2 or 
